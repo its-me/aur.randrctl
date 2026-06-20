@@ -1,0 +1,24 @@
+pkgbase = randrctl
+	pkgdesc = Lightweight profile based screen manager for X
+	pkgver = 1.11.0
+	pkgrel = 4
+	url = http://github.com/koiuo/randrctl
+	install = randrctl.install
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-pbr
+	makedepends = python-wheel
+	makedepends = python-hatchling
+	makedepends = python-hatch-vcs
+	depends = python
+	depends = python-argcomplete
+	depends = python-yaml
+	depends = xorg-xrandr
+	optdepends = bash-completion: bash shell prompt auto-completions
+	source = randrctl-1.11.0.tar.gz::https://github.com/koiuo/randrctl/archive/1.11.0.tar.gz
+	sha256sums = 733a93997c2592a917afcf91e16e70c41f2ef47c1531d220adbc1fc08c012277
+
+pkgname = randrctl
