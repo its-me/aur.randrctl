@@ -1,4 +1,5 @@
 # Maintainer: Sergey Kanafyev <sergeykanafyev@gmail.com>
+# Automation: https://github.com/its-me/aur.randrctl
 
 pkgname=randrctl
 pkgdesc="Lightweight profile based screen manager for X"
