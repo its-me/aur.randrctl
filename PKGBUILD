@@ -1,4 +1,6 @@
 # Maintainer: Sergey Kanafyev <sergeykanafyev@gmail.com>
+# Contributor: Narrat <autumn-wind@web.de>
+# Contributor: Wolfizen <wolfizen@wolfizen.net>
 # Automation: https://github.com/its-me/aur.randrctl
 
 pkgname=randrctl
