@@ -10,6 +10,9 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    environment:
+      name: AUR
+      url: https://aur.archlinux.org/packages/randrctl
     container:
       image: ghcr.io/its-me/archlinux:builder
 
