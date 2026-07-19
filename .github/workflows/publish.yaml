@@ -9,12 +9,10 @@ on:
 
 jobs:
   publish:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     environment:
       name: AUR
       url: https://aur.archlinux.org/packages/randrctl
-    container:
-      image: ghcr.io/its-me/archlinux:builder
 
     steps:
       - name: Checkout
